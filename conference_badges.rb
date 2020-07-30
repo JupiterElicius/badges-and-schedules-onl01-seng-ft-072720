@@ -26,4 +26,3 @@ def printer(attendees)
   end
 end
 
-end
