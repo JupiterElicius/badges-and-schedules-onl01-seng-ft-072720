@@ -14,9 +14,9 @@ def assign_rooms(attendees)
   attendees.each_with_index do |attendee, i|
   new_array.push ("Hello, #{attendee}! You'll be assigned to room #{i = i + 1}!")
   end
-  
+  return new_array
 end
- return new_array
+ 
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |person|
